@@ -18,4 +18,4 @@ Esta é uma solução para o [https://www.frontendmentor.io/challenges/social-li
 
 - Github -[Junior costa](https://github.com/Juniorcosta-dev)
 - Frontend Mentor[@Juniorcosta-dev](https://www.frontendmentor.io/profile/Juniorcosta-dev)
-- Vercel [Site](https://links-sociais-perfil-4rotqzgot-juniors-projects-a8bc6dc1.vercel.app/)
+- Vercel [Site](https://links-sociais-perfil.vercel.app/)
