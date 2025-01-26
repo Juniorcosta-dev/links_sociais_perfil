@@ -6,7 +6,7 @@ Esta é uma solução para o [https://www.frontendmentor.io/challenges/social-li
 ![Desenvolvedor front-end](./assets/images/Captura%20de%20tela%202025-01-26%20114922.png)
 
 ### links
-- URL da solução [url da solução]()
+- URL da solução [url da solução](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)
 - URL do site ativo [url do site ativo]()
 
 ### Contruido com
@@ -16,5 +16,5 @@ Esta é uma solução para o [https://www.frontendmentor.io/challenges/social-li
 
 ### Autor
 
-- Site -[Junior costa]()
+- Github -[Junior costa](https://github.com/Juniorcosta-dev)
 - Frontend Mentor[@Juniorcosta-dev](https://www.frontendmentor.io/profile/Juniorcosta-dev)
