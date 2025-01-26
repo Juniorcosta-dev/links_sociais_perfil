@@ -1,0 +1,129 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Cores principais */
+    --cor-primaria: hsl(75, 94%, 57%);
+    --cor-background: hsl(0, 0%, 8%);
+    --cor-texto: hsl(0, 0%, 100%);
+
+    /* Cor secundária */
+    --cor-grey-dark: hsl(0, 0%, 20%);
+    --cor-grey-darker: hsl(0, 0%, 12%);
+
+    /* Tipografia princípal */
+    --font-family: "Inter", sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-size-body: 14px;
+
+    /* Tipografia secundária */
+    --font-size-small: 12px;
+    --fonte-size-large: 18px;
+}
+
+body {
+    background-color: var(--cor-background);
+    color: var(--cor-texto);
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.perfil {
+    width: 100%;
+    max-width: 400px;
+    background-color: var(--cor-grey-darker);
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    color: var(--cor-texto);
+    margin-top: 10px;
+}
+
+.meu-pais {
+    color: var(--cor-primaria);
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+nav a {
+    background-color: var(--cor-grey-dark);
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    color: var(--cor-texto);
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--cor-primaria);
+    color: var(--cor-grey-dark);
+    transform: scale(1.02);
+}
+
+/* nav a:hover {
+    background-color: var(--cor-primaria);
+    color: var(--cor-grey-dark);
+} */
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+}
+
+.attribution a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+    .perfil {
+        max-width: 350px;
+    }
+
+    .attribution {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .perfil {
+        max-width: 280px;   
+    }
+}
