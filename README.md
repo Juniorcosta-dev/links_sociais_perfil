@@ -3,7 +3,7 @@
 Esta é uma solução para o [https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ]. Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação construindo projetos realistas.
 
 ## Captura de tela
-![Desenvolvedor front-end](./assets/images/Captura%20de%20tela%202025-01-26%20114922.png)
+![Desenvolvedor front-end](./images/Captura%20de%20tela%202025-01-26%20170904.png)
 
 ### links
 - URL da solução [url da solução](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)

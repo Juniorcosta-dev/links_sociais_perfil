@@ -107,9 +107,10 @@ nav a:focus {
     text-decoration: none;
 }
 
-.attribution a:hover {
-    text-decoration: underline;
-}
+.attribution a:hover,
+.attribution a:focus {
+    text-decoration: underline;  
+}           
 
 @media (max-width: 425px) {
     .perfil {
